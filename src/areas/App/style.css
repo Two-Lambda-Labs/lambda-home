@@ -1,9 +1,0 @@
-html{
-    overflow: hidden;
-}
-.Navigation > a {
-    background-color: white !important;
-}
-.section{
-    overflow: unset !important;
-}
