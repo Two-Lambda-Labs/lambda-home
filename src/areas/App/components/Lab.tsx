@@ -2,10 +2,10 @@ import React from 'react';
 import { Button, Col, Row } from 'reactstrap';
 
 export default () => (
-  <div className="services-con pt-4 pb-4 text-center d-flex justify-content-center">
+  <div className="lab-con pt-4 pb-4 text-center d-flex justify-content-center">
     <Row>
       <Col xs={12}>
-        <h2 className="fon">Check Out the Labs</h2>
+        <h2 className="reflect-white">Check Out the Labs</h2>
         <i className="fas fa-5x fa-flask pt-4 pb-4" />
         <p>
         Our lab is our place to test, experiment, and showcase. It contains everything from unfinished Hackathon projects to completed open-source projects.

@@ -5,7 +5,7 @@ import Logo from 'shared/images/Logo.svg';
 export default () => (
   <Jumbotron className="header-con text-center mb-0">
     <img src={Logo} alt="" />
-    <h1>Two Lamdba</h1>
+    <h1 className="reflect-white">Two Lamdba</h1>
     <div className="d-flex justify-content-center">
       <p>
         <span>Creating software and tech solutions for anyone.</span>

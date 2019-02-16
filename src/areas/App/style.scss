@@ -1,4 +1,18 @@
 @import "shared/styles/colors.scss";
+body {
+    background-color: $grey;
+}
+.row {
+    margin: 0;
+}
+
+.reflect-black {
+    -webkit-box-reflect: below 8px -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(40%, transparent), to(rgba(255, 255, 255, 0.1)));
+}
+.reflect-white {
+    -webkit-box-reflect: below -12px -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(56%, transparent), to(rgba(255, 255, 255, 0.1)));
+}
+
 .app-container {
     height: 100%;
     width: 100%;
@@ -12,6 +26,7 @@
         }
     }
     .about-con {
+        background-color: $white;
         .contact-card {
             max-width: 400px;
             img {
@@ -32,11 +47,26 @@
         }
     }
 
-    .services-con{
-        background-color: $grey;
+    .services-con {
+        background-color: $white;
+    }
+
+    .lab-con{
         color:$white;
         >div {
             max-width:500px;
         }
+    }
+
+    .contact-con{ 
+        color: $white;
+        label { color: $white;}
+        .contact-form {
+            min-width: 600px;
+        }
+    }
+
+    .footer-con {
+        color: $white;
     }
 }

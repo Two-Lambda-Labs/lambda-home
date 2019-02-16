@@ -37,7 +37,7 @@ export default () => (
   <div className="about-con pt-4 pb-4 text-center">
     <Row>
       <Col xs={12}>
-        <h2 className="fon">Who we are</h2>
+        <h2 className="reflect-black">Who we are</h2>
         <div className="d-flex justify-content-center">
           <ContactCard
             name="Kyle Gray"

@@ -25,7 +25,7 @@ const AngleRect: React.FunctionComponent<IAngleRectProps> = ({left,id}) => (
               height="700px"
               viewBox="0 0 100 700"
             >
-              <polygon fill="rgb(42,42,42)" points={left?"100,70 100,0 0,70 ":"0,0 0,70 100,0"} />
+              <polygon fill="rgb(255,255,255)" points={left?"100,70 100,0 0,70 ":"0,0 0,70 100,0"} />
             </pattern>
           </defs>
           <rect x="0" y="0" width="100%" height="70px" fill={`url(#shapeDividerPattern-${id})`} />
